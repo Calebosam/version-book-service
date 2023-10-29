@@ -6,5 +6,5 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.listen(() => {
-  console.log(`Server is running on ${PORT}`);
+  console.log(`Books Service is running on ${PORT}`);
 });
